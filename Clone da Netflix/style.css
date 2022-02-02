@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 100%;
+    text-align: center;
+
+}
+
+.quadro {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-top: 5%;
+
+}
+
+.container {
+    width: 450px;
+    height: 570px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.poster {
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.informacoes_parte1 {
+    text-align: center;
+}
+
+.informacoes_parte2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.detalhes {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#sinopse {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.msgErro {
+    color: red;
+}
+
+.container_app {
+    text-align: center;
+}
+
+
+.input {
+    width: 380px;
+    height: 50px;
+    /*background-color: rgb(216, 215, 215) ;*/
+    background-color: rgb(255, 167, 167);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.descricaoApp1 {
+    margin-bottom: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.descricaoApp2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Arial;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+.nomeApp {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.buscarBt {
+    width: 380px;
+    height: 50px;
+    margin-top: 20px;
+    
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    
+}
+
+#ano, #duracao, #sinopse, #genero, #atores, #diretor {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 19px;
+}

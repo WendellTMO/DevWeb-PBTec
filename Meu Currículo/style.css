@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* background-image: url("linkdaimagem"); */
+div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2, h3, p {
+    padding-top: 10px;
+}
+
+div.resumo {
+    background-color: rgba(83, 255, 83, 0.425);
+    text-align: justify;
+    text-indent: 3em;
+}
+
+a.button {
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+p.recuo {
+    text-indent: 3em;
+}
+
+h2 {
+    color: rgb(0, 81, 255);
+}
+
+hr {
+    background-color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: rgb(77, 77, 77);
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+div.perfil {
+    background-color: rgb(211, 211, 0);
+    text-align: center;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+#github {
+    background-color: rgb(85, 81, 81);
+}
+#github:hover {
+    background-color: rgb(33, 31, 31);
+}
+
+#linkedin {
+    background-color: rgb(0, 183, 255);
+}
+#linkedin:hover {
+    background-color: rgb(0, 139, 194);
+}
+
+#youtube {
+    background-color: #ff0026;
+}
+#youtube:hover {
+    background-color: #aa001a;
+}
+
+#site {
+    background-color: rgb(7, 172, 7);
+}
+#site:hover {
+    background-color: rgb(5, 110, 5);
+}

@@ -1,0 +1,181 @@
+* {
+    background-color: rgb(252, 230, 223);
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+    font-family: "Poppis", sans-serif;
+}
+
+.aside_informacoes {
+    background-color: rgb(255, 123, 0);
+    float: left;
+    width: 30vw;
+    height: 100vh;
+}
+
+.content {
+    display: none;
+    height: 320px;
+    width: 90vh;
+    position: fixed;
+    left: 35vw;
+    top: 20px;
+    color: black;
+
+}
+
+
+
+.perfil {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    background-color: rgb(255, 123, 0);
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 123, 0);
+}
+
+h5, h6 {
+    font-size: 20px;
+    color: black;
+
+}
+
+
+.tabela_form_acad {
+    font-size: 20px;
+    color: black;
+    background-color: rgb(252, 230, 223);
+    text-align: left;
+    list-style: outside;
+}
+
+label {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+label:hover {
+    cursor: pointer;
+    color: rgb(85, 81, 81);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(255, 123, 0);
+}
+
+.button {
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#github {
+    background-color: rgb(128, 128, 128);
+}
+#github:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#linkedin {
+    background-color: rgb(70, 94, 224);
+}
+#linkedin:hover {
+    background-color: rgb(20, 54, 247);
+}
+
+#youtube {
+    background-color: #ff5555;
+}
+#youtube:hover {
+    background-color: #ff2020;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgb(255, 255, 255), transparent);
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+#img_card {
+    height: 150px;
+    width: 200px;
+}
+
+.conteudo_sobre {
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#proj_1:hover, #proj_2:hover, #proj_3:hover, 
+#proj_4:hover, #proj_5:hover, #proj_6:hover {
+    transform: translate(-5px);
+    cursor: pointer;
+    border-bottom: 7px solid rgb(145, 75, 10);/* Borda vermelha inferior ao passar o mouse */
+} 
+
+#conteudo_card {
+    background-color: rgb(255, 123, 0);
+}
+
+.row_1, .row_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.rd_tabs {
+    display: none;
+}
+
+.rd_tabs:checked ~ .content {
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 230, 223);
+}
+
+.rd_tabs:checked ~ label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
